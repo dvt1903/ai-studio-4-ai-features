@@ -4,9 +4,9 @@ Dự án bài tập xây dựng website có **4 chức năng AI**, phát triển
 
 ## ✅ Nội dung bài nộp
 
-- Mã nguồn đầy đủ trên repository này.
-- README có ảnh giao diện thực tế.
-- Slide ngắn gọn về cách làm: [`docs/AI_Studio_Cach_Lam.pptx`](docs/AI_Studio_Cach_Lam.pptx).
+- **Mã nguồn đầy đủ** trên repository GitHub này.
+- **README có ảnh giao diện** để giảng viên xem nhanh kết quả.
+- **01 slide PowerPoint ngắn gọn về cách làm**: [`docs/AI_Studio_Cach_Lam.pptx`](docs/AI_Studio_Cach_Lam.pptx).
 
 ## 4 chức năng AI
 
@@ -19,20 +19,9 @@ Dự án bài tập xây dựng website có **4 chức năng AI**, phát triển
 
 ## Ảnh giao diện
 
-### 1. Nhận diện hoa
-![Nhận diện hoa](docs/screenshots/01-classify.jpg)
+![Tổng quan giao diện AI Studio](docs/screenshots/ui-overview.jpg)
 
-### 2. Phát hiện đối tượng
-![Phát hiện đối tượng](docs/screenshots/02-detect.jpg)
-
-### 3. Tìm kiếm ảnh
-![Tìm kiếm ảnh](docs/screenshots/03-search.jpg)
-
-### 4. Chatbot RAG
-![Chatbot RAG](docs/screenshots/04-chat.jpg)
-
-### Giao diện mobile
-![Mobile](docs/screenshots/05-mobile.jpg)
+Ảnh tổng hợp thể hiện giao diện của 4 chức năng AI trong project.
 
 ## Kiến trúc
 
@@ -92,7 +81,7 @@ python -m uvicorn api.main:app --host 127.0.0.1 --port 8000
 
 ## Kết quả kiểm thử
 
-ResNet-18 đạt khoảng **90,19% accuracy** và **90,14% macro F1** trên 367 ảnh test Flowers. Repo có test API, smoke test và benchmark trong `tests/`, `scripts/` và `docs/`.
+ResNet-18 đạt khoảng **90,19% accuracy** và **90,14% macro F1** trên 367 ảnh test Flowers. Repo có API test, smoke test và benchmark trong `tests/`, `scripts/` và `docs/`.
 
 ## API chính
 

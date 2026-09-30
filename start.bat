@@ -7,7 +7,7 @@ if errorlevel 1 exit /b 1
 python scripts\prepare.py
 if errorlevel 1 exit /b 1
 cd web
-call npm ci
+call npm install
 if errorlevel 1 exit /b 1
 call npm run build
 if errorlevel 1 exit /b 1
